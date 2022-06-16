@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Kite-Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testonedge(failed)">
+    <parameter name="browsername" value="edgeBrowser"/>
+    <classes>
+      <class name="TESTINK_PKG.KiteLoginTest">
+        <methods>
+          <include name="closedriver"/>
+          <include name="launchbrwser"/>
+          <include name="login2kite"/>
+          <include name="testcomp"/>
+          <include name="launchbrwser1"/>
+          <include name="holdingstabvalidation"/>
+        </methods>
+      </class> <!-- TESTINK_PKG.KiteLoginTest -->
+    </classes>
+  </test> <!-- Testonedge(failed) -->
+</suite> <!-- Failed suite [Kite-Suite] -->

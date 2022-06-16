@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-03T22:49:37 IST" name="Kite-Suite" finished-at="2022-06-03T22:54:12 IST" duration-ms="274345">
+    <groups>
+    </groups>
+    <test started-at="2022-06-03T22:49:37 IST" name="Testonchrome" finished-at="2022-06-03T22:52:01 IST" duration-ms="143411">
+      <class name="TESTINK_PKG.KiteLoginTest">
+        <test-method is-config="true" signature="launchbrwser1(java.lang.String)[pri:0, instance:TESTINK_PKG.KiteLoginTest@7722c3c3]" started-at="2022-06-03T22:49:38 IST" name="launchbrwser1" finished-at="2022-06-03T22:50:28 IST" duration-ms="50896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrwser1 -->
+        <test-method is-config="true" signature="launchbrwser()[pri:0, instance:TESTINK_PKG.KiteLoginTest@7722c3c3]" started-at="2022-06-03T22:50:29 IST" name="launchbrwser" finished-at="2022-06-03T22:50:50 IST" duration-ms="20687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrwser -->
+        <test-method is-config="true" signature="login2kite()[pri:0, instance:TESTINK_PKG.KiteLoginTest@7722c3c3]" started-at="2022-06-03T22:50:50 IST" name="login2kite" finished-at="2022-06-03T22:50:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2kite -->
+        <test-method signature="holdingstabvalidation()[pri:2, instance:TESTINK_PKG.KiteLoginTest@7722c3c3]" started-at="2022-06-03T22:50:50 IST" name="holdingstabvalidation" finished-at="2022-06-03T22:51:42 IST" duration-ms="52587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holdingstabvalidation -->
+        <test-method is-config="true" signature="testcomp()[pri:0, instance:TESTINK_PKG.KiteLoginTest@7722c3c3]" started-at="2022-06-03T22:51:42 IST" name="testcomp" finished-at="2022-06-03T22:51:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcomp -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:TESTINK_PKG.KiteLoginTest@7722c3c3]" started-at="2022-06-03T22:51:42 IST" name="closedriver" finished-at="2022-06-03T22:52:01 IST" duration-ms="18132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- TESTINK_PKG.KiteLoginTest -->
+    </test> <!-- Testonchrome -->
+    <test started-at="2022-06-03T22:52:02 IST" name="Testonedge" finished-at="2022-06-03T22:54:12 IST" duration-ms="129883">
+      <class name="TESTINK_PKG.KiteLoginTest">
+        <test-method is-config="true" signature="launchbrwser1(java.lang.String)[pri:0, instance:TESTINK_PKG.KiteLoginTest@359f7cdf]" started-at="2022-06-03T22:52:02 IST" name="launchbrwser1" finished-at="2022-06-03T22:52:25 IST" duration-ms="23442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edgeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrwser1 -->
+        <test-method is-config="true" signature="launchbrwser()[pri:0, instance:TESTINK_PKG.KiteLoginTest@359f7cdf]" started-at="2022-06-03T22:52:25 IST" name="launchbrwser" finished-at="2022-06-03T22:52:59 IST" duration-ms="34094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrwser -->
+        <test-method is-config="true" signature="login2kite()[pri:0, instance:TESTINK_PKG.KiteLoginTest@359f7cdf]" started-at="2022-06-03T22:52:59 IST" name="login2kite" finished-at="2022-06-03T22:52:59 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2kite -->
+        <test-method signature="holdingstabvalidation()[pri:2, instance:TESTINK_PKG.KiteLoginTest@359f7cdf]" started-at="2022-06-03T22:52:59 IST" name="holdingstabvalidation" finished-at="2022-06-03T22:53:58 IST" duration-ms="59143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holdingstabvalidation -->
+        <test-method is-config="true" signature="testcomp()[pri:0, instance:TESTINK_PKG.KiteLoginTest@359f7cdf]" started-at="2022-06-03T22:53:58 IST" name="testcomp" finished-at="2022-06-03T22:53:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcomp -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:TESTINK_PKG.KiteLoginTest@359f7cdf]" started-at="2022-06-03T22:53:58 IST" name="closedriver" finished-at="2022-06-03T22:54:12 IST" duration-ms="13131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- TESTINK_PKG.KiteLoginTest -->
+    </test> <!-- Testonedge -->
+  </suite> <!-- Kite-Suite -->
+</testng-results>
